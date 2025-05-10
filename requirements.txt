@@ -1,0 +1,37 @@
+# Core Model and Vector Processing
+numpy>=1.24.0                 # Array operations for vector manipulation
+sentence-transformers>=2.2.2  # Vector embeddings for memory system
+torch>=2.0.0           # Required by sentence-transformers (with CUDA support for CUDA 12.8)
+
+# Development and Testing
+black>=22.12.0                # Code formatting
+mypy>=1.0.0                   # Type checking
+pytest>=7.0.0                 # Testing framework
+
+# Diagnostics and Logging
+loguru>=0.6.0                 # Logging utility for better diagnostics
+
+# Document Processing
+pillow>=9.3.0                 # Image processing for documents with images
+PyPDF2>=2.10.0                # PDF document support and processing
+python-docx>=0.8.11           # Microsoft Word document support
+pymupdf>=1.21.1               # PDF and image processing (fitz)
+pytesseract>=0.3.10           # OCR for image text extraction
+
+# Machine Learning Utilities
+scikit-learn>=1.2.0           # Machine learning utilities for advanced features
+
+# Networking and API
+requests>=2.28.1              # Network requests and API calls
+
+# System and Resource Monitoring
+psutil>=5.9.0                 # System resource monitoring (CPU, RAM, etc.)
+
+# UI Enhancements
+customtkinter>=5.2.0          # Modern UI widgets (used in plugins)
+matplotlib>=3.6.0             # Visualizations for resource monitoring
+ttkthemes>=3.2.2              # Enhanced UI themes
+
+# Configuration and Settings
+python-dotenv>=0.21.0         # Environment variable management
+pyyaml>=6.0                   # Configuration file management
